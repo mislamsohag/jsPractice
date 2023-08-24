@@ -1,0 +1,1 @@
+var subject = ["Bangla", "English", "Math", "Arabic", "Hadith", "Quaran", "Balagat"];
