@@ -20,17 +20,14 @@ console.log(objectKeys);
 
 for(let i=0; i<objectKeys.length; i++){
     let propertyName = objectKeys[i];
-
     // এখানে সূত্র নং-২ অনুসরণ করে করা হয়েছে।
     let propertyValue = friendsAge[propertyName];
-    // console.log(propertyName, propertyValue);
+    console.log(propertyName, propertyValue);
 }
 
 
 // বিকল্প পদ্ধতী: fon in loop use করা
 for (let propertyName in friendsAge){
-
     let propertyValue = friendsAge[propertyName];
-
     console.log(propertyName, propertyValue);
 }
