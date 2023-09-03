@@ -12,7 +12,7 @@ const phones = [
 ]
 
 
-function sumeOfArray (phones){
+function sumOfArray (phones){
     let sum =0;
     for(let i=0; i<phones.length; i++){
         let phone=phones[i];
@@ -22,6 +22,6 @@ function sumeOfArray (phones){
     return sum;
 }
 
-const result = sumeOfArray(phones);
+const result = sumOfArray(phones);
 
 console.log(result);

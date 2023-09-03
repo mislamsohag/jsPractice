@@ -27,12 +27,14 @@ let heading=document.querySelector('.heading');
 console.log(heading.innerText='Hello Java Script');
 
 let li=document.querySelectorAll('.naika li');
-for (let naikaList of li)
-// console.log(naikaList);
+for (let naikaList of li){
+
+    // console.log(naikaList);
+}
 
 
 
-fetch('https://jsonplaceholder.typicode.com/comments')
-      .then(res => res.json())
-      .then(json => console.log(json[10].name))
+// fetch('https://jsonplaceholder.typicode.com/comments')
+//       .then(res => res.json())
+//       .then(json => console.log(json[10].name))
 
